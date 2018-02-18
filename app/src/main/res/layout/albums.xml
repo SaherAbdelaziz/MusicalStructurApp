@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mymusicalstructure.mymusicalstructure.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/Albums"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/albums_2_playing"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Go_to_playing_page" />
+
+    <Button
+        android:id="@+id/albums_2_payment"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Go_to_payment_page" />
+
+    <Button
+        android:id="@+id/albums_2_mainpage"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Go_to_main_page" />
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/albums_desc" />
+
+</LinearLayout>
